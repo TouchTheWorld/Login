@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_drawable"
+    android:weightSum="1">
+
+    <TextView
+        android:textColor="@color/colorGreen"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/register_text"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/textView2"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corners"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.05">
+        <TextView
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/colorGreen"
+            android:text="@string/registerAccount_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/registerAccount_editText"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:hint="@string/registerAccount_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/registerPassword_editText"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:hint="@string/registerPassword_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/registerFinish_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorGreen"
+            android:text="@string/registerFinish_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</LinearLayout>
